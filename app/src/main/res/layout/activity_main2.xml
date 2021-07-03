@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CBA"
+    tools:context=".MainActivity2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:background="@color/black"
+        >
+        <Button
+            android:id="@+id/btn_subj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subject"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/btn_quiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quiz"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/btn_sol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Solution"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/maincontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3"
+        >
+        <fragment
+            android:id="@+id/frg_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:name="com.ali.example.tutorapp.Fragment_1"
+            />
+        <fragment
+            android:id="@+id/frg_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:name="com.ali.example.tutorapp.Fragment_2"
+            />
+        <fragment
+            android:id="@+id/frg_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:name="com.ali.example.tutorapp.Fragment_3"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

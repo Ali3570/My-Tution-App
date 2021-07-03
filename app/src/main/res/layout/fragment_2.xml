@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment_2"
+    android:background="@drawable/quiz">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUIZ"
+        android:fontFamily="monospace"
+        android:textSize="60dp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btnquiz1"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="Physics"
+        android:layout_marginLeft="10dp"
+        android:layout_marginVertical="100dp"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        app:backgroundTint="#E3E0E0"
+        />
+    <Button
+        android:id="@+id/btnquiz2"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginVertical="200dp"
+        android:text="Chemistry"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        app:backgroundTint="#E3E0E0"
+        />
+    <Button
+        android:id="@+id/btnquiz3"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="Biology"
+        android:layout_marginLeft="10dp"
+        android:layout_marginVertical="300dp"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        app:backgroundTint="#E3E0E0"
+        />
+    <Button
+        android:id="@+id/btnquiz4"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="Maths"
+        android:layout_marginLeft="10dp"
+        android:layout_marginVertical="400dp"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        app:backgroundTint="#E3E0E0"
+        />
+
+</FrameLayout>
